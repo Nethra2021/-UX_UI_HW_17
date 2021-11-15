@@ -25,14 +25,14 @@ header ul {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 0.05em;
   color: #AB390A;
 }
 
 header li {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 header img {
