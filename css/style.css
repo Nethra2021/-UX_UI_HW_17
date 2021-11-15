@@ -41,13 +41,11 @@ header img {
 }
 
 header button {
-  width: 164px;
-  height: 47px;
-  margin-top: 16px;
-  padding: 8px 39px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 5px 20px;
   font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 18px;
   letter-spacing: 0.05em;
   color: white;
   box-sizing: border-box;
@@ -253,13 +251,12 @@ textarea {
 }
 
 .contact button {
-  width: 164px;
-  height: 47px;
-  padding: 8px 39px;
+  height: 40px;
+  margin-top: 10px;
   margin-bottom: 61px;
+  padding: 5px 20px;
   font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 18px;
   letter-spacing: 0.05em;
   color: white;
   box-sizing: border-box;
@@ -267,9 +264,7 @@ textarea {
   border: 2px solid #FFFFFF;
   border-radius: 5px;
   outline: #AB390A solid 1px;
-
 }
-
 
 /* Footer */
 footer {
