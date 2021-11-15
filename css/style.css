@@ -88,7 +88,7 @@ header button {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 35px;
 }
 
@@ -119,10 +119,8 @@ hr {
   padding-top: 48px;
 }
 .skillsCard{
-  width: 28%;
-  padding-right: 18px;
-  padding-left:18px;
-  padding-top: 21px;
+  width: 30%;
+  padding: 20px;
   text-align: center;
   border: 1px solid #AB8602;
   box-sizing: border-box;
@@ -130,8 +128,8 @@ hr {
 }
 
 .skillsCard h2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 7px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: bold;
@@ -140,6 +138,7 @@ hr {
 }
 
 .skillsCard p {
+  margin-top: 0px;
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -171,13 +170,7 @@ hr {
 }
 
 .projects img {
-  width: 30%;
-  padding-right: 54px;
   padding-top: 34px;
-}
-
-.projects img:last-of-type{
-  padding-right: 0px;
 }
 
 
@@ -202,7 +195,7 @@ hr {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 35px;
 }
 
