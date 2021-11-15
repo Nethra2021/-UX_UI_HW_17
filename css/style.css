@@ -14,8 +14,7 @@ header {
   width: 95%;
   height: 68px;
   padding: 18px 2.5%;
-/*   background-color: #FCF7F3; */
-	background-color:#FFA500;
+  background-color: #FCF7F3;
 }
 
 header ul {
@@ -33,7 +32,7 @@ header ul {
 
 header li {
   display: inline-block;
-  padding-right: 30px;
+  padding-right: 35px;
 }
 
 header img {
@@ -42,12 +41,12 @@ header img {
 }
 
 header button {
-  width: 160px;
-  height: 46px;
+  width: 164px;
+  height: 47px;
   margin-top: 16px;
-  padding: 8px 35px;
+  padding: 8px 39px;
   font-family: 'Nunito', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 30px;
   letter-spacing: 0.05em;
   color: white;
@@ -259,7 +258,7 @@ textarea {
   padding: 8px 39px;
   margin-bottom: 61px;
   font-family: 'Nunito', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 30px;
   letter-spacing: 0.05em;
   color: white;
