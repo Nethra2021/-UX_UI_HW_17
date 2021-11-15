@@ -14,7 +14,8 @@ header {
   width: 95%;
   height: 68px;
   padding: 18px 2.5%;
-  background-color: #FCF7F3;
+/*   background-color: #FCF7F3; */
+	background-color:orange;
 }
 
 header ul {
