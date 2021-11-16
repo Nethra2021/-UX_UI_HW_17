@@ -153,7 +153,7 @@ hr {
 }
 
 .work h1 {
-  margin-bottom: 4px;
+  margin-bottom: 24px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: bold;
@@ -170,8 +170,8 @@ hr {
 }
 
 .projects img {
-  padding-top: 54px;
-  width: 47%;
+  padding-top: 24px;
+  width: 49%;
   height: auto;
 }
 
