@@ -35,6 +35,11 @@ header li {
   padding-right: 35px;
 }
 
+header li a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 header img {
   position: absolute;
   left: 47.5%;
@@ -153,7 +158,7 @@ hr {
 }
 
 .work h1 {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: bold;
@@ -165,12 +170,12 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.projects img {
-  padding-top: 24px;
+.projects a {
+  padding-top: 20px;
   width: 49%;
   height: auto;
 }
