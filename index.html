@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UX_UI_HW_17</title>
+    <title>Homework 17</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
   </head>
 
   <body>
+    <script src="js/index.js"></script>
     <!-- Navigation, Logo, Resume -->
     <header>
       <ul>
-        <li>Home</li>
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href = "#home">Home</a></li>
+        <li><a href = "#work">Work</a></li>
+        <li><a href= "#about">About</a></li>
+        <li><a href = "#contact">Contact</a></li>
       </ul>
       <img src = "images/Logo.png">
       <button>Resume</button> 
     </header>
 
     <!-- Hero Image -->
-    <section class="heroImg">
+    <section class="heroImg" id = "home">
       <img src="images/ProfilePicture.png">
       <h1>Hi, I'm Nethra. <br> A User Experience Designer</h1>
       <p>I’m an empath-driven product designer and enjoy solving user problems by creating beautiful and thoughtful designs that help people reach their goals.</p> 
@@ -50,18 +51,18 @@
     <hr>
 
     <!-- My Work -->
-    <section class="work">
+    <section class="work" id = "work">
       <h1>My Work</h1>
       <div class="projects">
-          <img src="images/Project1.png" class = "img1">
-          <img src="images/Project2.png" class = "img2">
-          <img src="images/Project3.png" class = "img3">
+          <a href = "casestudy/index.html"><img src="images/Project1.png"></a>
+          <a href = "casestudy/index.html"><img src="images/Project2.png"></a>
+          <a href = "casestudy/index.html"><img src="images/Project3.png"></a>
       </div>
     </section>
     <hr>
 
     <!-- About Me -->
-    <section class="about">
+    <section class="about" id = "about">
       <img src = "images/about.png">
       <h1>About Me</h1>
       <p>Hello, I’m Nethra! For most of my life, I have been fascinated with technology and the idea of helping people with the skills I accumulate. Due to that fascination, I studied Computer Science, but at the end of my studies, I felt like something was missing. That’s when I discovered User Experience Design, I learned I could combine my interest in technology and my passion for helping people to create thoughtful products.</p>
@@ -69,7 +70,7 @@
     <hr>
 
     <!-- Contact Me -->
-    <section class="contact">
+    <section class="contact" id = "contact">
       <h1>Say Hello</h1>
       <form>
           <label>Name*</label>
