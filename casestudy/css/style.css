@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 body {
@@ -11,6 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  top: 0;
   width: 95%;
   height: 68px;
   padding: 18px 2.5%;
@@ -61,274 +62,95 @@ header button {
   outline: #AB390A solid 1px;
 }
 
-
-/* Hero Image */
-.heroImg {
-  padding-top: 61px;
-  padding-left: 147px;
-  padding-right: 147px;
+.content {
+    margin-left: 8%;
+    margin-right: 8%;
 }
-
-.heroImg img {
-  float: right;
-  margin-top: 84px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  padding-left: 118px;
-}
-
-.heroImg h1 {
-  margin-top: 145px;
-  margin-bottom: 0px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 62px;
-}
-
-.heroImg p {
-  margin-top: 30px;
-  font-family: 'Nunito', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 35px;
+h1 {
+    margin-top: 68px;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    color: black;
+    margin-bottom: 0;
 }
 
 hr {
-  width: 90%;
-  padding-top: 61px;
-  border: none;
-  border-bottom: 1px solid #AB8602;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #AB8602;
+  }
+
+h2 {
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #AB390A;
+margin-top: 35px;
+margin-bottom: 0;
 }
 
-/* My UX Skills Section */
-.skills{
-  padding-left: 147px;
-  padding-right: 147px;
+h3 {
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 35px;
+color: #000000;
+margin-bottom: 0;
+margin-top: 30px;
 }
 
-.skills h1{
-  margin-bottom: 0px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 62px;
-}
-.flexContainer {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 48px;
-}
-.skillsCard{
-  width: 30%;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #AB8602;
-  box-sizing: border-box;
-  border-radius: 10px;
+p {
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+margin-top: 15px;
+margin-bottom: 0;
 }
 
-.skillsCard h2 {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  color: #AB6402;
-}
-
-.skillsCard p {
-  margin-top: 0px;
-  font-family: 'Nunito', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 27px;
-}
-
-
-/* My Work Section */
-.work {
-  padding-top: 0;
-  padding-left: 147px;
-  padding-right: 147px;
-}
-
-.work h1 {
-  margin-bottom: 48px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 62px;
-}
-
-.projects {
-  display: grid;
-  justify-content: space-between;
-  padding-left: 0px;
-  grid-template-areas: 
-  "COH Tribi"
-  "DHS DHS"
-  ;
-  grid-gap: 10px;
-}
-
-.COH{
-  grid-area: COH;
-}
-
-.Tribi{
-  grid-area: Tribi;
-}
-
-.DHS {
-  grid-area: DHS;
-}
-
-.caption {
-  height: auto; 
-  position: relative;
-}
-
-.caption .hoverproject {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-.caption:hover .hoverproject {
-  display: inline;
-  z-index: 0;
-}
-
-
-/* About Me */
-.about {
-  display:inline-block;
-  padding-top: 0;
-  padding-left: 147px;
-  padding-right: 147px;
-}
-
-.about h1 {
-  margin-bottom: 0px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-}
-
-.about p {
-  margin-top: 48px;
-  font-family: 'Nunito', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 35px;
-}
-
-.about img {
-  float: right;
-  padding-left: 116px;
-  padding-top: 61px;
-}
-
-
-/* Contact */
-.contact {
-  padding-top: 0;
-  padding-left: 147px;
-  padding-right: 147px;
-}
-
-.contact h1 {
-  margin-bottom: 48px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-}
-
-input {
-  display: inline-block;
-  width: 50%;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid black;
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-label {
-  display:block;
-  font-family: 'Nunito', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #AB390A;
-}
-
-textarea {
-	resize: vertical; 
-  height: 200px;
-  width: 84.5%;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 12px;
-  box-sizing: border-box;
-  border: 1px solid black;
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.contact button {
-  height: 40px;
-  margin-top: 10px;
-  margin-bottom: 61px;
-  padding: 5px 20px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.05em;
-  color: white;
-  box-sizing: border-box;
-  background: #AB390A;
-  border: 2px solid #FFFFFF;
-  border-radius: 5px;
-  outline: #AB390A solid 1px;
-}
+.highlight {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight:700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #AB390A;
+    }
 
 /* Footer */
 footer {
-  padding: 8px;
-  font-family: 'Nunito', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18x;
-  line-height: 25px;  
-  letter-spacing: 0.05em;
-  color: black;
-  background-color: #AB860226;
-}
-
-footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-footer li {
-  display: inline-block;
-  padding: 0px 15px;
-  border-left: 1px solid black;
-}
-
-footer li:first-of-type {
-  border-left: none;
-}
+    padding: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18x;
+    line-height: 25px;  
+    letter-spacing: 0.05em;
+    color: black;
+    background-color: #AB860226;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer li {
+    display: inline-block;
+    padding: 0px 15px;
+    border-left: 1px solid black;
+  }
+  
+  footer li:first-of-type {
+    border-left: none;
+  }
