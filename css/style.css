@@ -15,6 +15,7 @@ header {
   height: 68px;
   padding: 18px 2.5%;
   background-color: #FCF7F3;
+  z-index: 1;
 }
 
 header ul {
@@ -158,7 +159,7 @@ hr {
 }
 
 .work h1 {
-  margin-bottom: 28px;
+  margin-bottom: 48px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: bold;
@@ -167,17 +168,43 @@ hr {
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: space-between;
   padding-left: 0px;
-  padding-right: 0px;
+  grid-template-areas: 
+  "COH Tribi"
+  "DHS DHS"
+  ;
+  grid-gap: 10px;
 }
 
-.projects a {
-  padding-top: 20px;
-  width: 49%;
-  height: auto;
+.COH{
+  grid-area: COH;
+}
+
+.Tribi{
+  grid-area: Tribi;
+}
+
+.DHS {
+  grid-area: DHS;
+}
+
+.caption {
+  height: auto; 
+  position: relative;
+}
+
+.caption .hoverproject {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.caption:hover .hoverproject {
+  display: inline;
+  z-index: 0;
 }
 
 
@@ -236,6 +263,7 @@ input {
   padding: 12px;
   border: 1px solid black;
   font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label {
@@ -256,7 +284,8 @@ textarea {
   padding: 12px;
   box-sizing: border-box;
   border: 1px solid black;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contact button {
