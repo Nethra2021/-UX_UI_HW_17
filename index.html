@@ -11,14 +11,28 @@
    
     <!-- Navigation, Logo, Resume -->
     <header>
-      <ul>
-        <li><a href = "#home" data-page="home">Home</a></li>
-        <li><a href = "#work" data-page="work">Work</a></li>
-        <li><a href= "#about" data-page="about">About</a></li>
-        <li><a href = "#contact" data-page="contact">Contact</a></li>
-      </ul>
+ 
+      <nav>
+        <div id = "menuToggle">
+          <input type = "checkbox"/>
+          <!-- hamburger menu -->
+          <span></span>
+          <span></span>
+          <span></span>
+        
+          <ul>
+            <li><a href = "#home" data-page="home">Home</a></li>
+            <li><a href = "#work" data-page="work">Work</a></li>
+            <li><a href= "#about" data-page="about">About</a></li>
+            <li><a href = "#contact" data-page="contact">Contact</a></li>
+            <li><button class = "mobileresumebutton" onclick= "window.open('https://drive.google.com/file/d/1UyVKAKFYHCamh781GeSK_HIFO2iZETZB/view?usp=sharing','_blank');">Resume</button> </li>
+          </ul>
+        </div>
+      </nav>
+
       <a href = "../index.html"><img src = "images/Logo.png"></a>
-      <button onclick= "window.open('https://drive.google.com/file/d/1as0afLQcdiaDvE_VA4eYFoWvsxvnQVpq/view?usp=sharing','_blank');">Resume</button> 
+      <button class = "desktopresumebutton" onclick= "window.open('https://drive.google.com/file/d/1UyVKAKFYHCamh781GeSK_HIFO2iZETZB/view?usp=sharing','_blank');">Resume</button> 
+
     </header>
 
     <!-- Hero Image -->
@@ -77,8 +91,9 @@
 
     <!-- About Me -->
     <section class="about" id = "about">
-      <img src = "images/about.png">
+      <img src = "images/about.png" class = "redpicdesktop">
       <h1>About Me</h1>
+      <img src = "images/about.png" class = "redpicmobile">
       <p>Hello, I’m Nethra! For most of my life, I have been fascinated with technology and the idea of helping people with the skills I accumulate. Due to that fascination, I studied Computer Science, but at the end of my studies, I felt like something was missing. That’s when I discovered User Experience Design, I learned I could combine my interest in technology and my passion for helping people to create thoughtful products.</p>
     </section>
     <hr id = "startcontact">
