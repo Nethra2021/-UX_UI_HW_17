@@ -14,19 +14,33 @@
 <body>
   <!-- Navigation, Logo, Resume -->
   <header>
-    <ul>
-      <li><a href = "../index.html">Home</a></li>
-      <li><a href = "../index.html#startwork">Work</a></li>
-      <li><a href= "../index.html#startabout">About</a></li>
-      <li><a href = "../index.html#startcontact">Contact</a></li>
-    </ul>
+ 
+    <nav>
+      <div id = "menuToggle">
+        <input type = "checkbox"/>
+        <!-- hamburger menu -->
+        <span></span>
+        <span></span>
+        <span></span>
+      
+        <ul>
+          <li><a href = "../index.html" data-page="home">Home</a></li>
+          <li><a href = "../index.html#startwork" data-page="work">Work</a></li>
+          <li><a href= "../index.html#startabout" data-page="about">About</a></li>
+          <li><a href = "../index.html#startcontact" data-page="contact">Contact</a></li>
+          <li><button class = "mobileresumebutton" onclick= "window.open('https://drive.google.com/file/d/1UyVKAKFYHCamh781GeSK_HIFO2iZETZB/view?usp=sharing','_blank');">Resume</button> </li>
+        </ul>
+      </div>
+    </nav>
+
     <a href = "../index.html"><img src = "images/Logo.png"></a>
-    <button onclick= "window.open('https://drive.google.com/file/d/1as0afLQcdiaDvE_VA4eYFoWvsxvnQVpq/view?usp=sharing','_blank');">Resume</button> 
+    <button class = "desktopresumebutton" onclick= "window.open('https://drive.google.com/file/d/1UyVKAKFYHCamh781GeSK_HIFO2iZETZB/view?usp=sharing','_blank');">Resume</button> 
+
   </header>
 
   <section class = "content">
     
-    <h1 style = "margin-top: 160px;">Center on Halsted Website Redesign</h1>
+    <h1 class = "opening">Center on Halsted Website Redesign</h1>
     
     <hr>
     
@@ -163,7 +177,7 @@
       <h3>Next Steps</h3>
       <p>In the interest of time we set aside a few features and ideas which would greatly improve the app and further address the users’ needs. We would like to continue building secondary pages for the mobile and desktop and would like to go deeper on the information architecture. We would also like to incorporate a share feature because we learned from users interviews that users would feel more confident about specific resources if they received their friends' approval. Finally, we would like to share findings with our stakeholder because the CEO mentioned they are looking to start a full redesign of their website. It would be a great opportunity for us if we could collaborate with them during the redesign process.</p>
 
-      <h1 style = "text-align: center; color: #AB8602; margin-top: 85px; margin-bottom: 85px;">- - Thank You! - -</h1>
+      <h1 class = "closing">- - Thank You! - -</h1>
     </section>
 
     <!-- Footer -->
