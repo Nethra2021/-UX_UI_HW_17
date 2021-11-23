@@ -72,6 +72,10 @@ header button {
   outline: #AB390A solid 1px;
 }
 
+header button:hover, .contact button:hover{
+  background: #BF5602;
+}
+
 
 /* Hero Image */
 .heroImg {
