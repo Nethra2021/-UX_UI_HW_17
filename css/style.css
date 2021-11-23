@@ -180,17 +180,19 @@ hr {
 }
 
 .projects {
-  display: grid;
+  /* display: grid; */
+  display: flex;
   justify-content: center;
   padding-left: 0px;
-  grid-template-areas: 
+  grid-gap: 10px;
+  /* grid-template-areas: 
   "COH Tribi"
   "DHS ."
-  ;
-  grid-gap: 10px;
+  ; */
+ 
 }
 
-.COH{
+/* .COH{
   grid-area: COH;
 }
 
@@ -200,7 +202,7 @@ hr {
 
 .DHS {
   grid-area: DHS;
-}
+} */
 
 .caption {
   height: auto; 
