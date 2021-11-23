@@ -134,10 +134,12 @@ hr {
   line-height: 62px;
 }
 .flexContainer {
-  display: flex;
+  /* display: flex; */
+  display: grid;
   justify-content: space-between;
   padding-top: 48px;
   grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 .skillsCard{
   width: 100%;
@@ -185,11 +187,12 @@ hr {
 }
 
 .projects {
-  /* display: grid; */
-  display: flex;
+  display: grid;
+  /* display: flex; */
   justify-content: center;
   padding-left: 0px;
   grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   /* grid-template-areas: 
   "COH Tribi"
   "DHS ."
