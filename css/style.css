@@ -133,9 +133,10 @@ hr {
   display: flex;
   justify-content: space-between;
   padding-top: 48px;
+  grid-gap: 10px;
 }
 .skillsCard{
-  width: 30%;
+  width: 100%;
   padding: 20px;
   text-align: center;
   border: 1px solid #AB8602;
@@ -208,7 +209,9 @@ hr {
   height: auto; 
   position: relative;
 }
-
+.caption img{
+  width: 100%;
+}
 .caption .hoverproject {
   display: none;
   position: absolute;
