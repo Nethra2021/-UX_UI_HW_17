@@ -4,11 +4,16 @@ $("li a").click(function(){
   $("html, body").animate({ scrollTop: $("#"+pageId).offset().top - 150}, 1000);
 });
 
-function hover(element) {
-  element.setAttribute('src', 'images/Project1Hover.png');
-}
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 
-function unhover(element) {
-  element.setAttribute('src', 'images/Project1.png"');
-}
+// function hover(element) {
+//   element.setAttribute('src', 'images/Project1Hover.png');
+// }
+
+// function unhover(element) {
+//   element.setAttribute('src', 'images/Project1.png"');
+// }
 });
