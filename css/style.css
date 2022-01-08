@@ -107,8 +107,8 @@ header button:hover, .contact button:hover{
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 hr {
@@ -139,7 +139,8 @@ hr {
   justify-content: space-between;
   padding-top: 48px;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 .skillsCard{
   width: 100%;
@@ -165,7 +166,7 @@ hr {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
 }
 
@@ -253,8 +254,8 @@ hr {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .redpicdesktop {
